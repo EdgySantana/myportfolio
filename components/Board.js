@@ -2,12 +2,12 @@
 // next image
 import Image from 'next/image';
 
-const Avatar = () => {
+const Board = () => {
   return (
     <div className='hidden xl:flex xl:max-w-none'>
       <Image 
-        src={'/avatar.png'}
-        width={470} 
+        src={'../../coffeedashboard.png'}
+        width={650} 
         height={478} 
         alt='' 
         className='translate-z-0 w-full h-full'
@@ -16,4 +16,4 @@ const Avatar = () => {
   );
 };
 
-export default Avatar;
+export default Board;

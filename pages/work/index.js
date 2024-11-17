@@ -2,6 +2,7 @@
 import WorkSlider from '../../components/WorkSlider';
 import Bulb from '../../components/Bulb';
 import Circles from '../../components/Circles';
+//import { WorkSlider } from '../../components/WorkSlider';
 
 // framer motion
 import { motion } from 'framer-motion';

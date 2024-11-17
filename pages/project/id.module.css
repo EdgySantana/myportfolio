@@ -1,0 +1,6 @@
+/* /pages/project/id.module.css */
+.pageWrapper {
+    min-height: 100vh;
+    overflow-y: auto;
+    padding-top: 10px; /* Adjust the top padding if necessary */
+  }

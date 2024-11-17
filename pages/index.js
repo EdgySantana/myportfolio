@@ -1,6 +1,9 @@
 // next image
 import Image from 'next/image';
 
+// blurred background
+import BlurBackground from '../components/BlurBackground'
+
 // components
 import ParticlesContainer from '../components/ParticlesContainer';
 import ProjectsBtn from '../components/ProjectsBtn';
@@ -71,9 +74,8 @@ const Home = () => {
             animate='show' 
             exit='hidden'
             transition={{duration: 1, ease: 'easeInOut'}}
-            className='w-full h-full max-w-[737] max-h-[478px] absolute -top-0
-        >
-        lg:bottom-0 lg:right-[2%]'>
+            className='w-full h-full max-w-[537] max-h-[458px] absolute -bottom-32
+            lg:bottom-20 lg:right-[6%]'>
           <Avatar />
         </motion.div>
       </div>

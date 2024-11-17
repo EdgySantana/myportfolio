@@ -128,7 +128,7 @@ const About = () => {
             exit='hidden'
             className='h2'
           >
-            Captivating <span className='text-accent'>Dashboards</span>Create magnificent visualizations.
+            Captivating <span className='text-accent'>Dashboards</span> Magnificent visualizations.
           </motion.h2>
           <motion.p 
             variants={fadeIn('right', 0.4)} 
@@ -136,10 +136,12 @@ const About = () => {
             animate='show'
             exit='hidden'
             className='max-x-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            "In 2021, driven by a strong passion for data-driven decision-making and a keen eye for detail, Edmundo Santana made a strategic career shift from hospitality and customer service to data analytics. 
+            Building on his strong interpersonal and problem-solving skills, Edmundo co-founded WebArtistry, where he honed his ability to analyze customer behavior and trends, 
+            enhancing user experiences through data insights. 
+            
+            His background in the service industry has given him a unique perspective on the importance of customer satisfaction, while his growing expertise in data analysis tools such as Excel, SQL, 
+            and Python enables him to extract actionable insights that drive business growth."
           </motion.p>
           {/* counters */}
           <motion.div
